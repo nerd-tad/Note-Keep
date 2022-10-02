@@ -5,7 +5,7 @@ app.register_blueprint(bp_1, url_prefix='/admin')  #only if we see /admin in url
 
 @app.route('/')
 def test():
-	return '<h1>This is a Test man</h1>'
+	return '<h1>This is a Test</h1>'
 
 if __name__ == '__main__':
 	app.run(port=10001, debug=True)
