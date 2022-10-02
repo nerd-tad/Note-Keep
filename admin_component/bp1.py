@@ -17,7 +17,7 @@ except:
 	print('Cannot connect to db!!')'''
 try:
 	mongo = pymongo.MongoClient(
-		host='mongodb+srv://tad:tad@cluster0.bslkwxd.mongodb.net/?retryWrites=true&w=majority',
+		host='mongodb+srv://<mongo_cloud_username>:<mongo_cloud_password>your_domain_.mongodb.net/?retryWrites=true&w=majority',
 		serverSelectionTimeoutMS = 1000
 	)
 	db = mongo.test_db1.test_collection1
